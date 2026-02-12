@@ -40,6 +40,7 @@ class MainActivity : AppCompatActivity() {
 
     fun nextScreen(view: View){
         val intent = Intent(this, SecondActivity::class.java)
+        startActivity(intent)
     }
 
 
